@@ -1,0 +1,51 @@
+html{
+    position:relative;
+    min-height: 100%;
+    padding-bottom:100px;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    background: #444444;
+    color:white;
+    padding:10px;
+
+}
+footer a, footer a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header .navbar-nav{
+    align-items: center;
+}
+.main-container{
+    padding-top:50px;
+}
+
+@media (max-width: 576px) {
+    .navbar-collapse {
+        margin-top: 20px;
+    }
+    .navbar-collapse .nav-item {
+        padding: 10px;
+        border-top: 1px solid #cccccc;
+        width: 100%;
+    }
+}
+.logo{
+    max-width:80px;
+}
+.navbar-brand{
+    max-width:100%;
+}
+
+ul.lista-ingredientes{
+    list-style: none !important;
+    padding-left: 0;
+    margin-bottom:0;
+}
+.card{
+    margin-bottom:50px;
+}
